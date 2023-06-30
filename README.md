@@ -40,7 +40,7 @@ brew install nlohmann-json
 
 * Crow Framework Library: The Crow Framework library is used for handling web routing and requests in the WeatherAPI Application. Install it using Homebrew with the following command:
 ```shell
-git clone https://github.com/ipkn/crow.git
+git clone https://github.com/CrowCpp/Crow.git).
 ```
 
 * CPR Library: The CPR library is used for making HTTP requests in the WeatherAPI Application. Install it using Homebrew with the following command:
@@ -59,4 +59,4 @@ brew install sw-redis
 Follow the steps below to configure the required libraries for the WeatherAPI Application:  
 
 ### Crow Framework Library  
-1. If you haven't please download the Crow Framework library from the official GitHub repository:[Crow Framework](https://github.com/ipkn/crow)
+To install the Crow Framework Library please follow the steps in the Crow documentation:[Crow Framework](https://crowcpp.org/master/getting_started/setup/macos/)
