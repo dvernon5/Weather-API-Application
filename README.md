@@ -162,8 +162,8 @@ CPR Library:
 * [CPR Documentation](https://docs.libcpr.org/): Official GitHub repository for CPR Library.
 
 Redis/Redis++ Library
-* [Redis GitHub Repository](https://github.com/sewenew/redis-plus-plus):
-* [Redis Documentation](https://redis.io/):
+* [Redis GitHub Repository](https://github.com/sewenew/redis-plus-plus): Official documentation for Redis++ Library.
+* [Redis Documentation](https://redis.io/): Official documentation for Redis Library.
 
 For more information on the WeatherAPI and its documentation, visit [WeatherAPI Documentation](https://www.weatherapi.com/docs/). You can find detailed information on how to use the WeatherAPI service and explore its various endpoints.
 
