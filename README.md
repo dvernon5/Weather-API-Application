@@ -59,4 +59,51 @@ brew install sw-redis
 Follow the steps below to configure the required libraries for the WeatherAPI Application:  
 
 ### Crow Framework Library  
-1. If you haven't downloaded the Crow FrameWork library please check out the Crow Documentation to install and configure your project. [Crow Installation and Configuration](https://crowcpp.org/master/getting_started/setup/macos/) 
+1. If you haven't downloaded the Crow FrameWork library please check out the Crow Documentation to install and configure your project. [Crow Installation and Configuration](https://crowcpp.org/master/getting_started/setup/macos/)
+
+### Nlohmann JSON Library
+1. If you haven't installed Nlohmann JSON library please type in the following command in your terminal:
+```shell
+brew install nlohmann-json
+```
+2. Open your Xcode project.
+3. Select your project in the project navigator on the left (Blue Tag).
+4. Select your target project from the target list
+5. Go to the "Build Settings" tab.
+6. In the search bar, type "header search paths".
+7. Double-click the "Header Search Paths" build setting (Empty field on the right).
+8. Click the "+" button to add a new search path.
+9. Enter the path to the Nlohmann JSON header files. This will typically be the directory where the Nlohmann JSON library is installed. For example, if the library is installed in "/usr/local/include/nlohmann", you would enter "/usr/local/include" as the search path.
+10. If you enter the latter "/usr/local/include" set the search path to recursive.
+11. Close the build settings.
+
+### CPR Library
+1. If you haven't installed CPR library please type in the following command in your terminal:
+```shell
+brew install cpr
+```
+2. Open your Xcode project.
+3. Select your project in the project navigator on the left (Blue Tag).
+4. Select your target project from the target list
+5. Select your target project from the target list
+6. Expand the "Link Binary With Libraries" section.
+7. Click the "+" button to add a new library.
+8. Click the "Add Other..." button.
+9. Navigate to the location where you extracted the CPR library files. Path example would look like this -> /usr/local/lib
+10. Select the libcpr.a file and click the "Open" button (If that does not work drag the file into the intended area).
+11. Make sure the libcpr.a file is added to the "Link Binary With Libraries" section.
+12. Go to the "Build Settings" tab.
+13. In the search bar, type "header search paths".
+14. Double-click the "Header Search Paths" build setting (Empty field on the right).
+15. Click the "+" button to add a new search path.
+16. Enter the path to the CPR header files. This will typically be the directory where the CPR library is installed. For example, if the library is installed in "/usr/local/include/cpr", you would enter "/usr/local/include" as the search path.
+17. If you enter the latter "/usr/local/include" set the search path to recursive.
+18. Close the build settings.
+
+### Redis++ Library
+1. **Before installing Redis++ please download Redis by typing the following command in the terminal**:
+  ```shell
+    brew install redis
+  ```
+
+
