@@ -26,5 +26,6 @@ Before running the WeatherAPI Application, ensure that you have the following pr
 * Homebrew: Homebrew is a package manager for macOS and Linux. Install Homberew by running the following command in your terminal:
 
 ```shell
+shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
