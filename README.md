@@ -6,7 +6,7 @@ This repository contains a WeatherAPI application that retrieves and displays we
 - [Introduction](#introduction)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation and Configuration](#installtionandconfiguration)
+- [Installation and Configuration](#installation-and-configuration)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
