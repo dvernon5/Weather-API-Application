@@ -28,3 +28,35 @@ Before running the WeatherAPI Application, ensure that you have the following pr
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+* Redis: Redis is an in-memory data store used for caching. Install Redis using Homebrew by running the following command:
+```shell
+brew install redis
+```
+
+* Nlohmann JSON Library: The Nlohmann JSON library is used for JSON parsing in the WeatherAPI Application. Install it using Homebrew with the following command:
+```shell
+brew install nlohmann-json
+```
+
+* Crow Framework Library: The Crow Framework library is used for handling web routing and requests in the WeatherAPI Application. Install it using Homebrew with the following command:
+```shell
+git clone https://github.com/ipkn/crow.git
+```
+
+* CPR Library: The CPR library is used for making HTTP requests in the WeatherAPI Application. Install it using Homebrew with the following command:
+```shell
+brew install cpr
+```
+
+* Redis++ Library: The Redis++ library is used for interacting with Redis in the WeatherAPI Application. Install it using Homebrew with the following command:
+```shell
+brew install sw-redis
+```
+
+* Xcode (for macOS users): If you're using Xcode as your IDE, make sure it is installed on your system. Xcode provides a convenient development environment for C++ programming.
+
+## Installation and Configuration  
+Follow the steps below to configure the required libraries for the WeatherAPI Application:  
+
+### Crow Framework Library  
+1. If you haven't please download the Crow Framework library from the official GitHub repository:[Crow Framework](https://github.com/)
