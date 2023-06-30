@@ -59,4 +59,4 @@ brew install sw-redis
 Follow the steps below to configure the required libraries for the WeatherAPI Application:  
 
 ### Crow Framework Library  
-1. If you haven't downloaded the Crow FrameWork library please check out the Crow Documentation to install and configure your project. [Crow Confi](https://crowcpp.org/master/getting_started/setup/macos/) 
+1. If you haven't downloaded the Crow FrameWork library please check out the Crow Documentation to install and configure your project. [Crow Installation and Configuration](https://crowcpp.org/master/getting_started/setup/macos/) 
